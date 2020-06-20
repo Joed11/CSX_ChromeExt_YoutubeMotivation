@@ -1,0 +1,12 @@
+.scroll-box {
+    width: 800px;
+    height: 8em;
+    overflow: hidden;
+    position: relative;
+}
+.scroll-text {
+    font-size: 60px;
+    color: green;
+    position: absolute;
+    white-space: nowrap;
+}

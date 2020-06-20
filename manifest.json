@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "version": "2.1",
+    "description": "A chrome extension to help me focus by replacing the main contents of the body of the Youtube page with an inspiring image.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["jquery.min.js", "./main.js"],
+            "css": ["index.css"]
+        }
+    ]
+}
+
